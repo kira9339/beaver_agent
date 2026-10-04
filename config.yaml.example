@@ -1,0 +1,27 @@
+# embedding provider options:
+#   - openai: any openai-compatible embedding API (zhipu, deepseek, kimi, ...)
+#       embedding:
+#         api_key: <your-zhipu-api-key>
+#         base_url: https://open.bigmodel.cn/api/paas/v4
+#         model: embedding-3
+#         provider: openai
+#   - local: run a sentence-transformers model from your local HuggingFace cache (no API key needed)
+#       embedding:
+#         provider: local
+#         model: BAAI/bge-m3
+#         model_path: D:/hf_cache/hub   # the HF hub cache dir (contains models--BAAI--bge-m3)
+#   - mock_embedding_provider: only for testing
+embedding:
+  api_key: <[optional]your-zhipu-api-key>
+  base_url: https://open.bigmodel.cn/api/paas/v4
+  model: embedding-3
+  provider: openai
+features: {}
+model_provider:
+  api_key: <your-deepseek-api-key>
+  base_url: https://api.deepseek.com/v1
+  model: deepseek-chat
+  provider: openai
+server: {}
+user:
+  username: <username>

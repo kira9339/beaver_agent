@@ -1,0 +1,28 @@
+{
+	"pages": [
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "Beaver"
+			}
+		},
+		{
+			"path": "pages/browse/browse",
+			"style": {
+				"navigationBarTitleText": "浏览"
+			}
+		},
+		{
+			"path": "pages/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Beaver",
+		"navigationBarBackgroundColor": "#F5F6F8",
+		"backgroundColor": "#F5F6F8"
+	}
+}
